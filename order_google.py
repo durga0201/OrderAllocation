@@ -221,6 +221,6 @@ if __name__ == '__main__':
     if solution:
         folium_map = create_folium_map(driver_location, pickup_location, drop_location, solution)
         folium_map = create_folium_map(driver_location, pickup_location, drop_location, solution)
-        folium_map.save(f"/Users/rag9704/Quantum/order_assignment/route_map_{int(time.time())}.html")
+        folium_map.save(f"order_assignment/route_map_{int(time.time())}.html")
         print("Map saved")
 
